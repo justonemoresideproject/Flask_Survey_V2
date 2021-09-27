@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %} Home Page {% endblock %}
+
+{% block content %} 
+
+<h1>Welcome to the Cookie Survey!</h1>
+<p>In this survey we will be quantifying your own imagination. Please begin by closing your eyes and imagine a warm, soft, gooey cookie that melts in your mouth like butter.</p>
+
+<span>When ready hit the Submit button</span>
+
+<form action="/questions/0">
+    <button>Submit</button>
+</form>
+{% endblock %}
